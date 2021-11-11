@@ -12,6 +12,7 @@ radius = 1000
 lojas = pd.read_csv(
     "data/parametros.csv", sep=";", encoding="utf-8", decimal=",", header=0
 )
+# lista de chaves de busca, deve ser alterado sempre que necessário?
 keywords = [
     "Estacionamento",
     "Parking",
